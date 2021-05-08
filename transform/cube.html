@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Flex1</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+.cube { position: relative; }
+.side { height: 95px; position: absolute; width: 95px; }
+.top { background: #9acc53; transform: rotate(-45deg) skew(15deg, 15deg); }
+.left { background: #8ec63f; transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%); }
+.right { background: #80b239; transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%); }
+
+body { color: #fff; font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif; margin: 12px 15px; }
+.original, .box { border-radius: 6px; }
+.original { background: #eaeaed; border: 1px dashed #cecfd5; float: left; margin: 12px 15px; }
+.box { background: #2db34a; height: 95px; line-height: 95px; text-align: center; width: 95px; }
+.spin { cursor: pointer; transform-style: preserve-3d; } 
+.spin:hover { animation: spin 5s linear infinite; }
+@keyframes spin { 
+	0% { transform: rotateY(0deg); } 
+	100% { transform: rotateY(360deg); }
+}
+.box-1 { transform: rotate(15deg); transform-origin: 0 0; } 
+.box-2 { transform: scale(.5); transform-origin: 100% 100%; }
+.box-3 { transform: skewX(20deg); transform-origin: top left; }
+.box-4 { transform: scale(.75) translate(-10px, -10px); transform-origin: 20px 50px; } 
+</style>
+</head>
+<body>
+<div class="cube">
+<figure class="side top">1</figure>
+<figure class="side left">2</figure>
+<figure class="side right">3</figure>
+</div>
+
+
+<figure class="box">Box 1</figure>
+<figure class="box">Box 2</figure>
+<figure class="box">Box 3</figure>
+
+<div class="original">
+  <div class="spin">
+    <figure class="box box-1">Box 1</figure>
+  </div>
+</div>
+
+<div class="original">
+  <div class="spin">
+    <figure class="box box-2">Box 2</figure>
+  </div>
+</div>
+
+<div class="original">
+  <div class="spin">
+    <figure class="box box-3">Box 3</figure>
+  </div>
+</div>
+
+<div class="original">
+  <div class="spin">
+    <figure class="box box-4">Box 4</figure>
+  </div>
+</div>
+
+</body>
+</html>
