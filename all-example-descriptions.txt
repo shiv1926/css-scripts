@@ -1,3 +1,5 @@
+http://www.css3.info/preview/background-size/
+
 example1.html : alternate row color of paragraph text
 
 
