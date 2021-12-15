@@ -12,5 +12,5 @@
         <div class="home">
             <a href="<?php echo es_url(); ?>">Home</a>
             <span style="display: inline-block; width: 50px;"></span>
-            <a href="<?php echo es_url('examples'); ?>">Example</a>
+            <a href="<?php echo es_url('example'); ?>">Example</a>
         </div>
