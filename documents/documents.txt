@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 what is stacking context : 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
 
 
 create a table where table head is fixed and body scroll
+=======
+http://www.awwwards.com/be-careful-about-these-6-web-design-trends-in-2016.html
+https://css3gen.com/
+
+
+=============================================
+
+aspect-ratio is a new property use this 
+>>>>>>> 30d3376 (other)
