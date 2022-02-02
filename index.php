@@ -48,6 +48,13 @@
 		<h4>Revisit some topics</h4>
 		<ul>
 			<li><a href="git-init-vs-clone-revisit.php">Git init vs clone</a></li>
+			https://css-tricks.com/lets-look-50-interesting-css-properties-values/
+		</ul>
+	</li>
+	<li>
+		<h4>CSS Tools</h4>
+		<ul>
+			<li><a href="https://www.cssportal.com/">https://www.cssportal.com : it is a very good tool for css</a></li>
 		</ul>
 	</li>
 </ul>
