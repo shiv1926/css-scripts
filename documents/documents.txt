@@ -5,3 +5,9 @@ http://www.awwwards.com/be-careful-about-these-6-web-design-trends-in-2016.html
 https://css3gen.com/
 aspect-ratio is a new property use this 
 
+===========================css animation ============================
+https://www.lambdatest.com/blog/css-animations-tutorial/
+https://coolcssanimation.com/
+https://marksheet.io/css-animations.html
+
+https://www.w3schools.com/css/css3_animations.asp
