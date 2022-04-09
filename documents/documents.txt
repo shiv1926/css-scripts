@@ -1,12 +1,35 @@
-what is stacking context : 
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
-create a table where table head is fixed and body scroll
+what is stacking context : https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+create a table where table head is fixed and body scroll : 
 http://www.awwwards.com/be-careful-about-these-6-web-design-trends-in-2016.html
 https://css3gen.com/
 aspect-ratio is a new property use this 
+clip path and masking : https://tympanus.net/codrops/css_reference/clip-path/
+===========================css selectors ============================
+http://learn.shayhowe.com/advanced-html-css/ : Lesson Complex Selectors is too good, there are serveral lesson for each topic, read one topic in once, when have long time.
+https://www.bitdegree.org/learn/css-selectors/
+
+
+https://www.w3docs.com : good website see index for each section, html , css and js
+
+
 ===========================css animation ============================
 https://www.lambdatest.com/blog/css-animations-tutorial/
 https://coolcssanimation.com/
 https://marksheet.io/css-animations.html
 https://css-animations.io/
 https://www.w3schools.com/css/css3_animations.asp
+https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/ : there are several good topics, read it 
+https://www.sitepoint.com/premium/courses/css-animation-tips-2957
+
+
+some important links
+https://cssreference.io/
+https://htmlreference.io : both website has a good pattern of tutorial, can be base for our tutorial website,
+
+position property : 
+https://scotch.io/bar-talk/5-things-you-might-not-know-about-the-css-positioning-types
+
+read chapters from here :
+perspective : 
+https://www.quackit.com/css/css3/properties/css_perspective.cfm
+https://css-tricks.com/almanac/properties/p/perspective/
