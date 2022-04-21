@@ -18,8 +18,9 @@
 	<li>
 		<h4>CSS by Category</h4>
 		<ul>
-			<li><a href="git-init-vs-clone-revisit.php">Print Media CSS properties</a></li>
-			<li><a href="git-init-vs-clone-revisit.php">Text properties</a></li>
+			<li><a href="print-media-css.php">Print Media CSS properties</a></li>
+			<li><a href="page-related-properties.php">page related properties</a></li>
+			<li><a href="text-properties.php">Text properties</a></li>
 		</ul>
 	</li>
 	<li>
@@ -34,6 +35,7 @@
 		<ul>
 			<li><a href="animation.php">Animation</a></li>
 			<li><a href="animation-examples.php">Animation examples</a></li>
+			<li><a href="animation-inspector.php">Animation Inspector</a></li>
 			<li><a href="several-components.php">Several components</a></li>
 		</ul>
 	</li>
