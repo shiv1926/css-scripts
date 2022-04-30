@@ -1,0 +1,89 @@
+Q #2) Name all the modules which are used in the current version of CSS.
+
+Answer: There are several modules in CSS as stated below:
+
+Selectors
+Box Model
+Backgrounds and Borders
+Text Effects
+2D/3D Transformations
+Animations
+Multiple Column Layout
+User Interface.
+
+Q #8) Explain the concept of Tweening.
+
+Answer: Tweening is the process in which we create intermediate frames between two images to get the appearance of the first image which develops into the second image.
+
+It is mainly used for creating animation.
+
+Q #11) What are CSS counters?
+
+Answer: CSS counters are variables that can be incremented by rules of CSS that inspector track how many times the variable has been used.
+
+Q #12) What is CSS specificity?
+
+Answer: CSS specificity is a score or rank that decides which style declaration has to be used to an element.
+
+(*) this universal selector has low specificity while ID selectors have high specificity.
+
+There are four categories in CSS which authorized the specificity level of the selector.
+
+Inline style
+IDs
+Classes, Attributes, and pseudo-classes.
+Elements and pseudo-elements.
+
+Q #13) How can we calculate specificity?
+
+Answer: To calculate specificity we will start with 0, then we have to add 1000 for each ID and we have to add 10 to the attributes, classes or pseudo-classes with each element name or pseudo-element and later we have to add 1 to them.
+
+Example:
+
+h2
+             #content h2
+            <div id=”content”>
+              <h2 style=”color:#FF0000”>heading</h2>
+            </div>
+
+
+
+
+Q #23) What is a CSS pseudo-class?
+
+Answer: It is a class that is used to define a special state of an HTML element.
+
+This class can be used by styling an element when a user snooped over it and also it can style an HTML element when it gets the focus.
+
+selector:pseudo-class {
+property:value;
+}
+Q #24) Explain the concept of pseudo-elements in CSS.
+
+Answer: It is a feature of CSS which is used to style the given parts of an element.
+
+For Example, we can style the first letter or line of an HTML element.
+
+selector::pseudo-element {
+property:value;
+}            
+
+
+What is CSS selector specificity and how does it work?
+
+
+
+What's the difference between a relative, fixed, absolute and statically positioned element?
+A positioned element is an element whose computed position property is either relative, absolute, fixed or sticky.
+
+static - The default position; the element will flow into the page as it normally would. The top, right, bottom, left and z-index properties do not apply.
+relative - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
+absolute - The element is removed from the flow of the page and positioned at a specified position relative to its closest positioned ancestor if any, or otherwise relative to the initial containing block. Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.
+fixed - The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.
+sticky - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
+
+
+Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
+translate() is a value of CSS transform. Changing transform or opacity does not trigger browser reflow or repaint but does trigger compositions; whereas changing the absolute positioning triggers reflow. transform causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. Hence translate() is more efficient and will result in shorter paint times for smoother animations.
+
+When using translate(), the element still occupies its original space (sort of like position: relative), unlike in changing the absolute positioning.

@@ -7,11 +7,7 @@ clip path and masking : https://tympanus.net/codrops/css_reference/clip-path/
 ===========================css selectors ============================
 http://learn.shayhowe.com/advanced-html-css/ : Lesson Complex Selectors is too good, there are serveral lesson for each topic, read one topic in once, when have long time.
 https://www.bitdegree.org/learn/css-selectors/
-
-
 https://www.w3docs.com : good website see index for each section, html , css and js
-
-
 ===========================css animation ============================
 https://www.lambdatest.com/blog/css-animations-tutorial/
 https://coolcssanimation.com/

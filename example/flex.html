@@ -1,0 +1,88 @@
+overview
+flexbox is another css layout modal.
+flex is a block level element.
+flex consist of two element flex parent and flex childrens.
+a flex box element is also known an flex container, and their direct child known as flex items. 
+flexbox is a single direction layout concept. flex items can only placed only vertically ( column ) or horizontally ( row ) at a time. Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.
+flex is short name of flexible box module and flexbox.
+flex is very easy to learn and efficient to create responsive layouts.
+flexbox provide us control over the alignment, direction, order, and size of items.
+
+flex provide a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex", why it is called flex or flexible box layout model ).
+
+The main idea behind the flex layout is to give the container the ability to alter its items' width/height (and order) to best fill the available space. A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated. 
+
+important concept to understand when workinig with flex :
+main axis and cross axis
+start and end line
+start edge and end edge
+available space : when we put mulitple boxes in a row, there may be some free space available, 
+Before we can make sense of these properties we need to consider the concept of available space. What we are doing when we change the value of these flex properties is to change the way that available space is distributed amongst our items. This concept of available space is also important when we come to look at aligning items.
+all the flex items properties works along the main axis.
+
+
+flexbox basics :
+When working with Flexbox we need to think in terms of two axes — the main axis and the cross axis.
+
+
+FLEX PARENT
+any element becomes flex by setting display: flex.
+each flex box parent have flex start (top left) and flex end (bottom right) points.
+by default flex container height is the height of longest children's height, even when there are multiple rows in flex container i.e when we have used flex-wrap: wrap.
+by default all the flex item streched to equal to the largest height of the element.
+all html elements have by default keep some css properties like line-height, font-size, font-weight, color etc. like this every flex container keep all the flex properties with default value untill we over-write it.
+display: flex;
+align-items: 
+default behaviour of flex parent : 
+
+
+FLEX CHILDREN
+by default the height of all childrens are same but width is depend on content.
+Every HTML element that’s a direct child of a flex container is an “item”. Flex items can be manipulated individually, but for the most part, it’s up to the container to determine their layout. The main purpose of flex items are to let their container know how many things it needs to position.
+
+
+
+If the items don’t have a size then the content's size is used as the flex-basis. This is why when we just declare display: flex on the parent to create flex items, the items all move into a row and take only as much space as they need to display their contents.
+
+flex-grow: How much of the positive free space does this item get?
+flex-shrink: How much negative free space can be removed from this item?
+flex-basis: What is the size of the item before growing and shrinking happens? , this is the most important concept to understand, flex-grow and flex-shirnk both proerty are depend on this.
+
+The flex-grow property can be used to distribute space in proportion. If we give our first item a flex-grow value of 2 and the other items a value of 1, 2 parts will be given to the first item (100px out of 200px in the case of the example above), 1 part each the other two (50px each out of the 200px total).
+
+When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from the outset.
+
+
+how to identify item row in flex, i.e. item is in first row, second row or in third row, how to design these row ?
+set height of all items by the smallest item's height ?
+how to identify last element of each row in flex ?
+what is baseline.
+
+complex layout using flex example : 
+flex-grow : why we need to grow element.
+
+
+
+While flexbox is a one dimensional model, it is possible to cause our flex items to wrap onto multiple lines. In doing so, you should consider each line as a new flex container. Any space distribution will happen across that line, 
+To have more control over flex items we can target them directly. We do this by way of three properties:
+
+it is possible that after aligning all items in a flex container free space may remains.
+
+parent ( flex container ) : flex container properties or what a flex parent can do : 
+children ( flex items ) : 
+
+
+flex-basis : fiex-basis property is used to specify the intial size of flexible item before distributing free space between flex items. there are multiple values are available but important properties are  :
+0, auto and fixed size in terms of ( px or percent )
+
+"0" and "auto" flex-basis will be different in most if not all situations: numeric values are interpreted as specific widths, so zero would be the same as specifying "width: 0" (and thus will collapse the element to its smallest possible width given the content, or to zero itself if its overflow is hidden.)
+
+
+flex-grow : It defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
+
+css flex best use case : 
+css flex advanced excercise : 
+
+we should add both these topics in our each tutorial article.

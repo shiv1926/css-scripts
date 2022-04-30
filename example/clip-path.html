@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<style type="text/css">
+		.box { margin: 0 auto 20px auto; width: 800px; border: 1px solid black; padding: 30px; text-align: justify; }
+		.box p { margin: 0; padding: 0; } 
+		.clip_box { margin: 0 0 20px 0; height: 150px; width: 150px; background-color: red; border: 1px solid #000;  }
+		.clip_circle { clip-path: circle(50% at 50% 50%); }
+		.clip_ellipse { clip-path: ellipse(50% 20% at 50% 50%); }
+		.clip_inset { clip-path: inset(15px 20px 25px 30px); }
+		.polygon_box { margin: 0 0 20px 0; height: 300px; width: 700px; background-color: red; border: 1px solid #000; }
+		.polygon { height: 100px; width: 100px; background-color: green; clip-path: polygon(10px 20px, 30px 50px, 40px 40px);  } 
+	
+.container {
+    width: 800px;
+    /* clear floats */
+    overflow: hidden;
+    /* other styles here.. */
+}
+.element {
+    /* establish coordinate system */
+    width: 800px;
+    height: 600px;
+    /* float the element */
+    float: right;
+    background-image: url('../images/bear.jpg');
+    background-size: cover;
+    /* apply shape and specify reference box */
+    shape-outside: polygon(nonzero, 23% 89.85%, 23.75% 83.85%, 27.75% 78.35%, 33.75% 75.15%, 42.65% 75.65%, 46.25% 69.35%, 51.65% 68.15%, 52.65% 61.65%, 55.65% 54.15%, 42.5% 37.85%, 42.9% 29.15%, 46.25% 24.35%, 51.25% 23.65%, 53.65% 13.15%, 59.25% 5.65%, 68% 1%, 99.75% 0.65%, 100% 100%, 23.9% 99.85%) border-box;
+} 
+
+
+	</style>
+</html>
+<body>
+<div class="box">
+Clipping operation is related to graphics, or clipping is a graphical operation in which we show full or a portion of the graphic elements. there are two things in this operation, a portion we which dont show is known as clipped out region, and which portion we show in known as clipped in region or clipping region.
+what are basic shapes and their syntax
+what are animatable propreties ?
+svg elements dont have box modal, svg element have geometry box.</div>
+<strong>atleast 3 co-ordinate poitns required to draw a polygon shape.</strong>
+<br>
+<strong>ellipse become circle when both radious are same.</strong>
+<br>
+<strong>A square box is rectangular box where all sides are same.</strong>
+<br>
+<strong>inset is a rectangular box. </strong>
+<br>
+<strong>It’s important to note that this property will only work on floated elements for now, although this is likely to change in the future. The shape-outside property can also be manipulated with transitions or animations.</strong>
+<div>shape outside is used to change the shape of the float area of the element. </div>
+Prerequisites – Conditions That Need to be met in order for shape-outside to work
+
+In order for the shape-outside property to work, these two conditions must be met:
+
+    The element must be floated. The element whose float area you’re changing must be a float. Future levels of CSS Shapes may allow us to define shapes on non-floated elements, but that is not yet possible.
+    The element must have intrinsic dimensions. The height and width set on an element will be used to establish a coordinate system on that element.
+
+
+
+<div class="box">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate impedit, error nisi doloribus quae sunt dolorem harum minus rerum voluptas veniam odio atque hic in quasi, voluptates. Quo accusantium quae provident velit, vero illum laboriosam, dignissimos autem possimus et ex harum voluptatum voluptas culpa libero sint itaque eius aut, quos cupiditate officia quia. Omnis accusantium ullam facere, molestiae recusandae dolor sunt tempora sequi labore nihil ad aliquid earum tenetur, harum eum, enim. Facere, in. Libero porro aliquid dolor fuga corporis in pariatur, accusantium eligendi quia sed hic magnam fugit consequuntur minus nobis illo. Assumenda, aliquid? Eos aspernatur, accusamus consequatur impedit quo expedita obcaecati repudiandae ducimus iusto accusantium quia ullam quos dolor, molestiae officiis dolorem reiciendis! Eveniet tempora magnam eligendi, at aliquam, earum vel! Fugiat dolorum eos sed architecto harum sit porro, reprehenderit odio voluptas nobis reiciendis quis ipsa laborum molestiae vitae dolorem. Deleniti totam voluptatibus nam voluptates, maiores harum, quisquam consequatur impedit possimus quia recusandae earum. Deleniti reprehenderit illo provident ab, eaque neque quae nam numquam consequatur sed, repudiandae esse vitae minima voluptatibus quis explicabo, est hic ipsum ea optio quibusdam impedit. Ex sapiente qui autem, necessitatibus laudantium reprehenderit fuga aliquam et fugit placeat esse officia suscipit eligendi, perspiciatis.</p>
+</div>
+<div class="clearfix"></div>
+<div class="clip_box clip_circle"></div>
+<div class="clip_box clip_ellipse"></div>
+<div class="clip_box clip_inset"></div>
+<div class="polygon_box">
+	<div class="polygon"></div>
+</div>
+
+
+<div class="container">
+    <div class="element"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, earum, cum cumque ullam tempora quos expedita officiis consectetur! Tenetur aliquam error doloribus praesentium facilis delectus autem temporibus iusto ad dignissimos?</p>
+</div>
+
+</body>
