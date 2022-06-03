@@ -16,15 +16,11 @@ https://css-animations.io/
 https://www.w3schools.com/css/css3_animations.asp
 https://www.smashingmagazine.com/2011/09/the-guide-to-css-animation-principles-and-examples/ : there are several good topics, read it 
 https://www.sitepoint.com/premium/courses/css-animation-tips-2957
-
-
 some important links
 https://cssreference.io/
 https://htmlreference.io : both website has a good pattern of tutorial, can be base for our tutorial website,
-
 position property : 
 https://scotch.io/bar-talk/5-things-you-might-not-know-about-the-css-positioning-types
-
 read chapters from here :
 perspective : 
 https://www.quackit.com/css/css3/properties/css_perspective.cfm

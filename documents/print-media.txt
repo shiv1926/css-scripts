@@ -1,0 +1,6 @@
+how to add page break
+remove default header and footer 
+
+https://www.geeksforgeeks.org/how-to-remove-url-from-printing-the-page/
+https://www.sitepoint.com/css-printer-friendly-pages/
+https://www.tutorialspoint.com/css/css_paged_media.htm
